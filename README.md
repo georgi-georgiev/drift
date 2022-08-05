@@ -1,1 +1,13 @@
-# drift
+# Hybrid cache library written in GoLang
+- In memory
+- Distributed cache with Redis
+- Auto sync with RedisBus
+- Json
+- Protobuf
+- Mutex lock
+- Sleep
+- Expiration scan frequency
+- Size limit
+- Logging
+- Middlewares
+- Compressor
