@@ -2,7 +2,22 @@
 - In memory
 - Distributed cache with Redis
 - Auto sync with RedisBus
+- Geo, List, Set
+- Diagnostics
+- Stats
+- System clock
+- Node init
+- Auto expiration
+- Benchmarks
+- Cache replacements LRU, LFU, FIFO, MRU, Clock
+- Sharding (djb2, djb2a, murmur, sdbm, fnv)
+- Consistant hash
+- Peers
+- Generics
+- Sinks
+- Response cache
 - Json
+- Binary
 - Protobuf
 - Mutex lock
 - Sleep
@@ -11,3 +26,11 @@
 - Logging
 - Middlewares
 - Compressor
+- Absolute expiration
+- Sliding expiration
+- Distributed lock
+- High concurrency (buckets)
+- murmur2
+- GC effiency (no pointers in map)
+- large maps cause significant GC pauses
+- Main cache, Hot cache
